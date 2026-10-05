@@ -129,29 +129,53 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [October 2, 2026]
+
 **What I did**:
+Started the assignment setup and completed the first two code features.
 
 **Details**:
+- Created and prepared my GitHub repository from the starter project.
+- Updated `SchedulerSimulation.java` with my student ID.
+- Added the Process Priority feature using a random priority from 1 to 10.
+- Added a getter for the priority and displayed the priority when a process enters the ready queue.
+- Added the Context Switch Counter and incremented it before `currentThread.start()`.
+- Printed the total number of context switches at the end of the simulation.
+- Saved the work using separate GitHub commits.
 
 **Challenges**:
+I needed time to understand where each feature should be added in the existing code, especially the ready queue section and the thread execution part.
 
 **Solution**:
+I reviewed the relevant parts of `SchedulerSimulation.java` step by step and added each change separately. I checked the code after every small modification before continuing.
 
 **Time spent**:
+Approximately 1.5 hours.
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [October 5, 2026]
+
 **What I did**:
+Completed the third feature, fixed the priority implementation, and tested the full program in VS Code.
 
 **Details**:
+- Fixed the Process Priority feature by restoring the `priority` field and its random initialization.
+- Added `arrivalTime` and `completionTime` using `System.currentTimeMillis()`.
+- Added methods to calculate waiting time and turnaround time.
+- Created a final summary table showing Process Name, Burst Time, Waiting Time, and Turnaround Time.
+- Added a separate map to keep each process only once in the final table.
+- Installed the Java Extension Pack and JDK 17 to run the program in VS Code.
+- Ran the complete simulation successfully and verified the final context switch count and timing table.
 
 **Challenges**:
+The main challenge was running the program because the first installed JDK version was Java 8, which did not support the `String.repeat()` method used in the starter code.
 
 **Solution**:
+I installed JDK 17, configured VS Code to use it, and ran the program again. After that, the simulation completed successfully without compilation errors.
 
 **Time spent**:
+Approximately 3 hours.
 
 ---
 
