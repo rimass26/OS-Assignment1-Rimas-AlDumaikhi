@@ -132,7 +132,9 @@ class Process implements Runnable {
     public int getBurstTime() {
         return burstTime;
     }
-
+public int getPriority() {
+    return priority;
+}
     public int getRemainingTime() {
         return remainingTime;
     }
@@ -291,9 +293,11 @@ public class SchedulerSimulation {
         processMap.put(thread, process);
         
         // Print a message indicating the process has entered the ready queue
-        System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
-                          Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
-                          " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
-                          Colors.RESET);
+        System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() +
+                   Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET +
+                   " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" +
+                   Colors.RESET +
+                   " │ Priority: " + Colors.BRIGHT_YELLOW + process.getPriority() +
+                   Colors.RESET);
     }
 }
