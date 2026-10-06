@@ -129,7 +129,7 @@
 
 ## Your Development Log
 
-### Entry 1 - [October 2, 2026]
+### Entry 1 - [October 2, 2026, 7:00 PM]
 
 **What I did**:
 Started the assignment setup and completed the first two code features.
@@ -154,7 +154,7 @@ Approximately 1.5 hours.
 
 ---
 
-### Entry 2 - [October 5, 2026]
+### Entry 2 - [October 5, 2026, 8:00 PM]
 
 **What I did**:
 Completed the third feature, fixed the priority implementation, and tested the full program in VS Code.
@@ -179,21 +179,31 @@ Approximately 3 hours.
 
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [October 6, 2026, 12:00 PM]
 **What I did**:
-
+Reviewed my completed program and started working on the assignment documentation and reflection section.
+  
 **Details**:
+- Reviewed the three implemented features in `SchedulerSimulation.java`.
+- Rechecked how the ready queue, threads, time quantum, and context switches work in the program.
+- Reviewed the final output from the successful VS Code execution.
+- Checked the waiting time and turnaround time results in the final table.
+- Started preparing the reflection answers in `MY_WORK.md` based on my actual implementation and testing experience.
 
 **Challenges**:
+I reviewed the code and the program output again and used specific examples from my implementation instead of writing general explanations.
 
 **Solution**:
+I reviewed the code and the program output again and used specific examples from my implementation instead of writing general explanations.
 
 **Time spent**:
+Approximately 1 hour.
 
 ---
 
 ### Entry 4 - [Date and Time]
 **What I did**:
+Reviewed my completed program and started working on the assignment documentation and reflection section.
 
 **Details**:
 
