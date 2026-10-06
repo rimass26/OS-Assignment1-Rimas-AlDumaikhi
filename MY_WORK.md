@@ -201,18 +201,25 @@ Approximately 1 hour.
 
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - [October 6, 2026, 1:00 PM]
 **What I did**:
-Reviewed my completed program and started working on the assignment documentation and reflection section.
+Completed the reflection and technical answer sections in `MY_WORK.md`.
 
 **Details**:
+- Answered the four reflection questions using examples from my own work.
+- Reviewed the differences between threads and processes.
+- Explained the Round-Robin ready queue behavior using my program output.
+- Described the thread lifecycle using `Thread.start()`, `Thread.join()`, and `Thread.sleep()`.
+- Added real-world examples of Round-Robin scheduling.
 
 **Challenges**:
+The main challenge was making sure the answers were specific to my own code and output instead of being general explanations.
 
 **Solution**:
+I reviewed `SchedulerSimulation.java` and the output from my successful run, then used those details in each answer.
 
 **Time spent**:
-
+Approximately 1 hour.
 ---
 
 ### Entry 5 - [Date and Time]
