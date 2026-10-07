@@ -222,17 +222,26 @@ I reviewed `SchedulerSimulation.java` and the output from my successful run, the
 Approximately 1 hour.
 ---
 
-### Entry 5 - [Date and Time]
+### Entry 5 - [October 7, 2026, 12:00 PM]
 **What I did**:
+Performed a final review of the code, documentation, and GitHub repository before submission.
 
 **Details**:
+- Verified that the repository is public and correctly named.
+- Checked that my student ID is correct in `SchedulerSimulation.java`.
+- Confirmed that all three required features are working.
+- Reviewed the commit history to make sure the work was saved in separate meaningful commits.
+- Checked `MY_WORK.md` for missing placeholders or incomplete sections.
+- Ran the program again to confirm that it compiles and completes successfully.
 
 **Challenges**:
+The main challenge was making sure no required item was missed before the final submission.
 
 **Solution**:
+I used the final checklist in `MY_WORK.md` and reviewed each requirement one by one.
 
 **Time spent**:
-
+Approximately 45 minutes.
 ---
 
 ### Entry 6 - [Optional - Date and Time]
