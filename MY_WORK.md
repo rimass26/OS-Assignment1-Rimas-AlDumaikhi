@@ -285,7 +285,7 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Talk about thread creation (`Runnable`, `Thread.start()`), waiting with `Thread.join()`, simulating work with `Thread.sleep()`, and what surprised you.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer: I learned that threads allow different tasks to run in an organized way. In this assignment, each simulated process was executed using a Java thread. I learned that `Thread.start()` starts the thread and `Thread.join()` makes the main program wait for it. I also saw how `Thread.sleep()` was used to simulate execution time. The Round-Robin scheduler gave each process a limited time quantum. This helped me understand how threads and CPU scheduling work together.** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -293,7 +293,7 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Pick **one** specific challenge (understanding the code, one of the features, Git, the video) and say *why* it was hard.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:The most challenging part was understanding where to add the required features in the existing code. At first, I was not sure where the priority, context switch counter, and waiting time should be added. I also had a problem running the program because Java 8 did not support one method used in the code. This caused compilation errors in VS Code. I needed to review the code carefully and test each change separately. After installing JDK 17, the program worked correctly.** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -301,7 +301,7 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Describe your method: reading documentation, adding `System.out.println` to debug, re-reading the README, testing after each small change, asking for help.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:I solved the problems by working on the assignment step by step. I reviewed the code before making each change. I tested each feature separately instead of changing everything at once. When the program did not run, I checked the error message in VS Code. I found that the Java version was the problem and installed JDK 17. After that, I ran the program again and checked the final output.** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -309,7 +309,7 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Use real applications you know (web browser, game, mobile app, music player) and connect each one to what you built here.
 
-**Your Answer:** *(5-7 sentences)*
+**Your Answer:Multithreading can be used in applications that need to perform several tasks at the same time. For example, a web browser can load a page while also responding to user actions. A music application can play audio while the user searches for another song. Operating systems also use scheduling to share CPU time between different tasks. The Round-Robin method can help give each task a fair chance to run. This assignment helped me understand how these ideas can be applied in real programs.** *(5-7 sentences)*
 
 [Write your answer here.]
 
@@ -341,7 +341,7 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Note that the class named `Process` in our code is a *simulated* process, and it is run by a real Java *thread*. Explain that distinction and point to the `new Thread(process)` line in `addProcessToQueue()`.
 
-**Your Answer:** *(3-5 sentences)*
+**Your Answer:A process is an independent program with its own memory, while a thread is a smaller unit of execution inside a program. Threads are usually faster to create and can share memory more easily than separate processes. In this assignment, the `Process` class represents a simulated process, but it is actually executed using a Java thread. The code creates the thread using `new Thread(process)` inside `addProcessToQueue()`. Threads were used because they are simple and suitable for simulating CPU scheduling in one Java program.** *(3-5 sentences)*
 
 [Write your answer here.]
 
