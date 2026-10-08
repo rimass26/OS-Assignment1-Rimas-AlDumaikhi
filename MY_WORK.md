@@ -1,4 +1,4 @@
-# 📝 MY_WORK: Student Information, Development Log, Reflection & Answers
+<img width="515" height="321" alt="image" src="https://github.com/user-attachments/assets/68b8256e-8861-49f0-9128-57c09c8820b6" /># 📝 MY_WORK: Student Information, Development Log, Reflection & Answers
 
 > This is the **only file** your instructor reads to grade Parts 3 and 4 (documentation and video). Everything you write here must be **in your own words**.
 
@@ -109,7 +109,7 @@
 
 ## Example Entry (do not copy it, write your own)
 
-### Entry 1 - [September 22, 2026, 2:30 PM]
+### Entry 1 - September 22, 2026, 2:30 PM
 **What I did**: Forked the repository and set up my student ID
 
 **Details**:
@@ -129,7 +129,7 @@
 
 ## Your Development Log
 
-### Entry 1 - [October 2, 2026, 7:00 PM]
+### Entry 1 - October 2, 2026, 7:00 PM
 
 **What I did**:
 Started the assignment setup and completed the first two code features.
@@ -154,7 +154,7 @@ Approximately 1.5 hours.
 
 ---
 
-### Entry 2 - [October 5, 2026, 8:00 PM]
+### Entry 2 - October 5, 2026, 8:00 PM
 
 **What I did**:
 Completed the third feature, fixed the priority implementation, and tested the full program in VS Code.
@@ -179,7 +179,7 @@ Approximately 3 hours.
 
 ---
 
-### Entry 3 - [October 6, 2026, 12:00 PM]
+### Entry 3 - October 6, 2026, 12:00 PM
 **What I did**:
 Reviewed my completed program and started working on the assignment documentation and reflection section.
   
@@ -201,7 +201,7 @@ Approximately 1 hour.
 
 ---
 
-### Entry 4 - [October 6, 2026, 1:00 PM]
+### Entry 4 - October 6, 2026, 1:00 PM
 **What I did**:
 Completed the reflection and technical answer sections in `MY_WORK.md`.
 
@@ -222,7 +222,7 @@ I reviewed `SchedulerSimulation.java` and the output from my successful run, the
 Approximately 1 hour.
 ---
 
-### Entry 5 - [October 7, 2026, 12:00 PM]
+### Entry 5 - October 7, 2026, 12:00 PM
 **What I did**:
 Performed a final review of the code, documentation, and GitHub repository before submission.
 
@@ -244,7 +244,7 @@ I used the final checklist in `MY_WORK.md` and reviewed each requirement one by 
 Approximately 45 minutes.
 ---
 
-### Entry 6 - [Optional - Date and Time]
+### Entry 6 - Optional - Date and Time
 **What I did**:
 
 **Details**:
@@ -285,33 +285,32 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Talk about thread creation (`Runnable`, `Thread.start()`), waiting with `Thread.join()`, simulating work with `Thread.sleep()`, and what surprised you.
 
-**Your Answer: I learned that threads allow different tasks to run in an organized way. In this assignment, each simulated process was executed using a Java thread. I learned that `Thread.start()` starts the thread and `Thread.join()` makes the main program wait for it. I also saw how `Thread.sleep()` was used to simulate execution time. The Round-Robin scheduler gave each process a limited time quantum. This helped me understand how threads and CPU scheduling work together.** *(5-7 sentences)*
+**Your Answer:** 
 
-[Write your answer here.]
+I learned that threads allow different tasks to run in an organized way. In this assignment, each simulated process was executed using a Java thread. I learned that `Thread.start()` starts the thread and `Thread.join()` makes the main program wait for it. I also saw how `Thread.sleep()` was used to simulate execution time. The Round-Robin scheduler gave each process a limited time quantum. This helped me understand how threads and CPU scheduling work together.
 
 ## Question 2: What was the most challenging part of this assignment?
 
 > 💡 **TIP:** Pick **one** specific challenge (understanding the code, one of the features, Git, the video) and say *why* it was hard.
 
-**Your Answer:The most challenging part was understanding where to add the required features in the existing code. At first, I was not sure where the priority, context switch counter, and waiting time should be added. I also had a problem running the program because Java 8 did not support one method used in the code. This caused compilation errors in VS Code. I needed to review the code carefully and test each change separately. After installing JDK 17, the program worked correctly.** *(5-7 sentences)*
+**Your Answer:** 
 
-[Write your answer here.]
+The most challenging part was understanding where to add the required features in the existing code. At first, I was not sure where the priority, context switch counter, and waiting time should be added. I also had a problem running the program because Java 8 did not support one method used in the code. This caused compilation errors in VS Code. I needed to review the code carefully and test each change separately. After installing JDK 17, the program worked correctly.
 
 ## Question 3: How did you overcome the challenges you faced?
 
 > 💡 **TIP:** Describe your method: reading documentation, adding `System.out.println` to debug, re-reading the README, testing after each small change, asking for help.
 
-**Your Answer:I solved the problems by working on the assignment step by step. I reviewed the code before making each change. I tested each feature separately instead of changing everything at once. When the program did not run, I checked the error message in VS Code. I found that the Java version was the problem and installed JDK 17. After that, I ran the program again and checked the final output.** *(5-7 sentences)*
+**Your Answer:** 
 
-[Write your answer here.]
+I solved the problems by working on the assignment step by step. I reviewed the code before making each change. I tested each feature separately instead of changing everything at once. When the program did not run, I checked the error message in VS Code. I found that the Java version was the problem and installed JDK 17. After that, I ran the program again and checked the final output. 
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
 > 💡 **TIP:** Use real applications you know (web browser, game, mobile app, music player) and connect each one to what you built here.
 
-**Your Answer:Multithreading can be used in applications that need to perform several tasks at the same time. For example, a web browser can load a page while also responding to user actions. A music application can play audio while the user searches for another song. Operating systems also use scheduling to share CPU time between different tasks. The Round-Robin method can help give each task a fair chance to run. This assignment helped me understand how these ideas can be applied in real programs.** *(5-7 sentences)*
-
-[Write your answer here.]
+**Your Answer:**  
+Multithreading can be used in applications that need to perform several tasks at the same time. For example, a web browser can load a page while also responding to user actions. A music application can play audio while the user searches for another song. Operating systems also use scheduling to share CPU time between different tasks. The Round-Robin method can help give each task a fair chance to run. This assignment helped me understand how these ideas can be applied in real programs.
 
 ### Optional: What would you like to learn more about?
 
@@ -341,9 +340,9 @@ Approximately 45 minutes.
 
 > 💡 **TIP:** Note that the class named `Process` in our code is a *simulated* process, and it is run by a real Java *thread*. Explain that distinction and point to the `new Thread(process)` line in `addProcessToQueue()`.
 
-**Your Answer:A process is an independent program with its own memory, while a thread is a smaller unit of execution inside a program. Threads are usually faster to create and can share memory more easily than separate processes. In this assignment, the `Process` class represents a simulated process, but it is actually executed using a Java thread. The code creates the thread using `new Thread(process)` inside `addProcessToQueue()`. Threads were used because they are simple and suitable for simulating CPU scheduling in one Java program.** *(3-5 sentences)*
+**Your Answer:** 
 
-[Write your answer here.]
+A process is an independent program with its own memory, while a thread is a smaller unit of execution inside a program. Threads are usually faster to create and can share memory more easily than separate processes. In this assignment, the `Process` class represents a simulated process, but it is actually executed using a Java thread. The code creates the thread using `new Thread(process)` inside `addProcessToQueue()`. Threads were used because they are simple and suitable for simulating CPU scheduling in one Java program. 
 
 ## Question 2: Ready Queue Behavior
 
@@ -353,17 +352,20 @@ Approximately 45 minutes.
 >
 > 💡 **TIP:** Pick a process with a large burst time (e.g., more than 2 × time quantum) and count how many "added to ready queue" lines it has after the first one. Search your console for its name (e.g., `P3`).
 
-**Your Answer:** *(3-5 sentences)*
+**Your Answer:** 
 
-[Write your answer here.]
+When a process does not finish within its time quantum, it is added back to the ready queue. In my run, P1 had a burst time of 4432 ms, so it needed more than one CPU turn. It was re-queued once before it finished. Re-queueing gives other processes a chance to use the CPU. This makes Round-Robin scheduling fair. 
 
 Example from my output:
+P1 completed quantum 4000ms
+Remaining time: 432ms
+P1 yields CPU for context switch
+P1 added to ready queue | Burst time: 4432ms | Priority: 2
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
-```
+<img width="1508" height="1006" alt="p1" src="https://github.com/user-attachments/assets/cc99a5c5-b905-49c0-bcb5-ebf01ae866d5" />
 
-**Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+**Explanation of example:** 
+P1 could not finish during its first 4000 ms time quantum because its burst time was 4432 ms. It had 432 ms remaining, so it was added back to the ready queue once before completing.
 
 ## Question 3: Thread Lifecycle
 
@@ -373,15 +375,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: P1 is in the New state when the thread is created using new Thread(process).
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: P1 becomes Runnable after Thread.start() is called.
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: P1 is Running when the CPU starts executing the run() method.
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: P1 goes into a waiting state when Thread.sleep() is used during execution. The main thread also waits for P1 using Thread.join().
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: P1 is Terminated when its run() method finishes and there is no remaining execution time.
 
 ## Question 4: Real-World Applications
 
@@ -391,32 +393,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): CPU scheduling
 
 **Description**:
-[Describe the real-world scenario.]
+An operating system can use Round-Robin to give each running program a small amount of CPU time.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+Each program gets a fair turn. The time quantum is the amount of CPU time each program receives. A context switch happens when the CPU moves from one program to another. This keeps the system responsive.
 
-### Example 2: [Name of application/scenario]
+### Example 2: Web server
 
 **Description**:
-[Describe the real-world scenario or application.]
+A web server can handle many user requests using different threads.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+Each request can get a small amount of processing time. This prevents one request from using all the CPU. It helps the server stay fair and responsive for many users.
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.The difference between threads and processes.
+2.How Round-Robin scheduling works.
+3.How thread states change during execution.
 
 **Concepts I need to study more:**
-1.
-2.
+1.Thread synchronization.
+2.More advanced CPU scheduling algorithms.
 
 ---
 
@@ -425,29 +427,29 @@ Example from my output:
 > ⚠️ **WARNING:** Go through every line. Late submission costs **-1 mark per day**, and the deadline is **October 10, 2026**.
 
 **Repository**
-- [ ] Repository is **PUBLIC** (Settings → Danger Zone → Visibility)
-- [ ] Repository is renamed to `OS-Assignment1-YourFirstName-YourLastName`
-- [ ] GitHub account uses the university email (`@std.psau.edu.sa`)
+- [x] Repository is **PUBLIC** (Settings → Danger Zone → Visibility)
+- [x] Repository is renamed to `OS-Assignment1-YourFirstName-YourLastName`
+- [x] GitHub account uses the university email (`@std.psau.edu.sa`)
 
 **Code**
-- [ ] Student ID is set in `SchedulerSimulation.java` (line 150)
-- [ ] Code compiles and runs with no errors
-- [ ] Feature 1 (priority), Feature 2 (context switches) and Feature 3 (waiting time table) all work
-- [ ] Each feature has clear comments
+- [x] Student ID is set in `SchedulerSimulation.java` (line 150)
+- [x] Code compiles and runs with no errors
+- [x] Feature 1 (priority), Feature 2 (context switches) and Feature 3 (waiting time table) all work
+- [x] Each feature has clear comments
 
 **Commits**
-- [ ] **At least 3 meaningful commits, ideally 6 or more**
-- [ ] **One commit per feature**
-- [ ] Commits are spread over **different dates** (not all in the last hour)
-- [ ] Everything is **pushed** to GitHub
+- [x] **At least 3 meaningful commits, ideally 6 or more**
+- [x] **One commit per feature**
+- [x] Commits are spread over **different dates** (not all in the last hour)
+- [x] Everything is **pushed** to GitHub
 
 **This file (`MY_WORK.md`)**
-- [ ] Full name and student ID filled in at the top
-- [ ] Development log has **5+ entries** on different dates
-- [ ] Reflection: 4 questions, 5-7 sentences each
-- [ ] Technical answers: 4 questions, 3-5 sentences each, with examples from **your** output
-- [ ] No `[...]` placeholders left
-- [ ] No section headers deleted
+- [x] Full name and student ID filled in at the top
+- [x] Development log has **5+ entries** on different dates
+- [x] Reflection: 4 questions, 5-7 sentences each
+- [x] Technical answers: 4 questions, 3-5 sentences each, with examples from **your** output
+- [x] No `[...]` placeholders left
+- [x] No section headers deleted
 
 **Video**
 - [ ] 2-3 minutes long, named `StudentID_Assignment1_Demo.mp4`
