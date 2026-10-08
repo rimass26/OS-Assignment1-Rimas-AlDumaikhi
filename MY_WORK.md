@@ -1,4 +1,4 @@
-<img width="515" height="321" alt="image" src="https://github.com/user-attachments/assets/68b8256e-8861-49f0-9128-57c09c8820b6" /># 📝 MY_WORK: Student Information, Development Log, Reflection & Answers
+# 📝 MY_WORK: Student Information, Development Log, Reflection & Answers
 
 > This is the **only file** your instructor reads to grade Parts 3 and 4 (documentation and video). Everything you write here must be **in your own words**.
 
@@ -355,14 +355,14 @@ A process is an independent program with its own memory, while a thread is a sma
 **Your Answer:** 
 
 When a process does not finish within its time quantum, it is added back to the ready queue. In my run, P1 had a burst time of 4432 ms, so it needed more than one CPU turn. It was re-queued once before it finished. Re-queueing gives other processes a chance to use the CPU. This makes Round-Robin scheduling fair. 
-
+<img width="1508" height="1006" alt="p1" src="https://github.com/user-attachments/assets/cc99a5c5-b905-49c0-bcb5-ebf01ae866d5" />
 Example from my output:
 P1 completed quantum 4000ms
 Remaining time: 432ms
 P1 yields CPU for context switch
 P1 added to ready queue | Burst time: 4432ms | Priority: 2
-```
-<img width="1508" height="1006" alt="p1" src="https://github.com/user-attachments/assets/cc99a5c5-b905-49c0-bcb5-ebf01ae866d5" />
+
+
 
 **Explanation of example:** 
 P1 could not finish during its first 4000 ms time quantum because its burst time was 4432 ms. It had 432 ms remaining, so it was added back to the ready queue once before completing.
